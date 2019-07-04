@@ -12,14 +12,16 @@
 default: &default
   adapter: mysql2
   encoding: utf8
+  database: rails_cms
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: root
-  password:
+  password: root
   host: localhost
+  port: 3306
 
 development:
   <<: *default
-  database: railsApplication_development
+  database: rails_cms
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -50,5 +52,5 @@ test:
 production:
   <<: *default
   database: railsApplication_production
-  username: railsApplication
-  password: <%= ENV['RAILSAPPLICATION_DATABASE_PASSWORD'] %>
+  username: root
+  password:
