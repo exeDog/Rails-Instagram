@@ -66,6 +66,15 @@ gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 #bootstrap
 gem 'bootstrap', '~>4.0.0'
 gem 'jquery-rails'
+
+# Toastr for flash
 gem 'toastr-rails'
+
+#OmniAuth twitter
+gem 'omniauth','~> 1.6'
+gem 'omniauth-twitter'
+
+
+
 
 
