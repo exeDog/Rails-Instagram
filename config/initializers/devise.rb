@@ -298,4 +298,5 @@ Devise.setup do |config|
   # config.sign_in_after_change_password = true
 
   config.omniauth :twitter, "pQwTtkrELhlrfcU9Eq5wNEkuH", "qvy6Q7x3Ke1pWMAeeA9aujWCcWLP92O0ODOknWqu3ywO0Sj5gP"
+  config.omniauth :facebook, "2500010010012104", "56e7aee488901f5dbd23ace5076fe534"
 end

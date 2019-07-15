@@ -73,6 +73,7 @@ gem 'toastr-rails'
 #OmniAuth twitter
 gem 'omniauth','~> 1.6'
 gem 'omniauth-twitter'
+gem 'omniauth-facebook'
 
 
 
