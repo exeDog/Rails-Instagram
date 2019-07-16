@@ -74,7 +74,7 @@ gem 'toastr-rails'
 gem 'omniauth','~> 1.6'
 gem 'omniauth-twitter'
 gem 'omniauth-facebook'
-
+gem 'carrierwave','~>1.0'
 
 
 
