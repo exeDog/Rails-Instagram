@@ -1,6 +1,7 @@
 class PostsController < ApplicationController
   before_action :authenticate_user!
   before_action :find_post, only: [:show]
+
   def index
     @posts = Post.all.limit(10).includes(:photos)
     @post = Post.new
@@ -11,7 +12,7 @@ class PostsController < ApplicationController
     if @post.save
       if params[:images]
         params[:images].each do |img|
-          @post.photos.create(:image => img)
+          @post.photos.create(image: img)
         end
       end
 
@@ -34,6 +35,7 @@ class PostsController < ApplicationController
     @post = Post.find_by id: params[:id]
 
     return if @post
+
     flash[:danger] = 'Post does not exists'
     redirect_to root_path
   end
