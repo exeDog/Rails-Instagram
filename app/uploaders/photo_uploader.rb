@@ -1,10 +1,11 @@
 class PhotoUploader < CarrierWave::Uploader::Base
+
   # Include RMagick or MiniMagick support:
   # include CarrierWave::RMagick
   # include CarrierWave::MiniMagick
 
   # Choose what kind of storage to use for this uploader:
-  storage :file
+  # storage :file
   # storage :fog
 
   # Override the directory where uploaded files will be stored.
@@ -19,11 +20,11 @@ class PhotoUploader < CarrierWave::Uploader::Base
   process :tags => ['post_picture']
 
   version :standard do
-    process :resize_to_fill => [300,300,:north]
+    process :resize_to_fill => [300, 300, :north]
   end
 
   version :thumbnail do
-    resize_to_fit(100,100)
+    resize_to_fit(100, 100)
   end
 
   # Provide a default URL as a default if there hasn't been a file uploaded:
@@ -57,4 +58,5 @@ class PhotoUploader < CarrierWave::Uploader::Base
   # def filename
   #   "something.jpg" if original_filename
   # end
+
 end

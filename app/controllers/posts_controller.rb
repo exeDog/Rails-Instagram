@@ -17,16 +17,15 @@ class PostsController < ApplicationController
       end
 
       redirect_to posts_path
-      flash[:notice] = 'Saved'
-
+      flash[:notice] = "Saved ..."
     else
-      flash[:alert] = 'Something went wrong'
+      flash[:alert] = "Something went wrong ..."
       redirect_to posts_path
     end
   end
 
   def show
-
+    @photos = @post.photos
   end
 
   private
@@ -35,8 +34,7 @@ class PostsController < ApplicationController
     @post = Post.find_by id: params[:id]
 
     return if @post
-
-    flash[:danger] = 'Post does not exists'
+    flash[:danger] = "Post not exist!"
     redirect_to root_path
   end
 
@@ -44,4 +42,3 @@ class PostsController < ApplicationController
     params.require(:post).permit :content
   end
 end
-
