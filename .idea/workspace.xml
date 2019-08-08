@@ -2,42 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b9dbadd-7048-4adf-8a65-cbd50da98880" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_devisemes.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/spring" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/secrets.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/spring.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/11dfa2cc-b9bb-49e0-a931-a6d5b46fefc2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/11dfa2cc-b9bb-49e0-a931-a6d5b46fefc2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7aa2ddad-4892-4952-9291-8f5e95672d67.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7aa2ddad-4892-4952-9291-8f5e95672d67.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9f75d113-2b42-4ef4-9b7a-976583f979bb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9f75d113-2b42-4ef4-9b7a-976583f979bb.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c649ecd3-40f9-499c-944f-5da180e378ae.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c649ecd3-40f9-499c-944f-5da180e378ae.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/railsApplication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/railsApplication.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/upload_post_images.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/users_search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/bookmarks_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/comments_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/likes_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/bookmark.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/comment.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/like.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/bookmarks/create.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/bookmarks/destroy.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/comments/create.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/comments/destroy.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/likes/create.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/likes/destroy.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/posts/_bookmark_icon.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/posts/_comment_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/posts/_comment_list.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/posts/_like_icon.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/posts/_like_text.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/posts/_photos.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/posts/_posts_list.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/posts/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/_post.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/_users_result.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/index.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20180629230509_create_likes.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20180701005736_create_comments.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20180701234348_create_bookmarks.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/landing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/mypage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/post_detail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/bookmarks.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/comments.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/likes.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/bookmark_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/comment_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/like_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/omniauth_callbacks_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/omniauth_callbacks_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/registrations_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/registrations_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/photo.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/photo.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/post.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/post.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/uploaders/photo_uploader.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/uploaders/photo_uploader.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/devise/shared/_dummy_phone.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/shared/_dummy_phone.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/posts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_devise_messages.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_devise_messages.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_footer.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_footer.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/shared/_navbar.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_navbar.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/cloudinary.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/cloudinary.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190702070444_devise_create_users.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20171223151516_devise_create_users.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190704111402_add_name_to_user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20180302113341_add_name_to_user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190708041231_add_omni_auth_to_users.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20180427133701_add_omniauth_to_users.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190716042011_add_fields_to_user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20180624023844_add_fields_to_user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190716045422_create_posts.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20180624232616_create_posts.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190716045508_create_photos.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20180624232643_create_photos.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -70,15 +94,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/uploaders/photo_uploader.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -99,8 +114,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="429">
+              <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -109,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -117,8 +132,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="255">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -126,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/shared/_navbar.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            <state relative-caret-position="374">
+              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -135,8 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="221">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -227,6 +242,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,16 +250,10 @@
               <item name="railsApplication" type="b2602c69:ProjectViewProjectNode" />
               <item name="railsApplication" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="railsApplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="railsApplication" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -371,6 +381,7 @@
       <workItem from="1562049101341" duration="33948000" />
       <workItem from="1563167397132" duration="23619000" />
       <workItem from="1563349721459" duration="1324000" />
+      <workItem from="1565224355617" duration="662000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1562051368970</created>
@@ -435,16 +446,30 @@
       <option name="project" value="LOCAL" />
       <updated>1563256493742</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Post controller">
+      <created>1565224445869</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565224445869</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Post controller">
+      <created>1565224487116</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1565224487116</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58891000" />
+    <option name="totallyTimeSpent" value="59553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25591397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2594982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -561,22 +586,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190702070444_devise_create_users.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190704111402_add_name_to_user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190702070444_devise_create_users.rb" />
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190704111402_add_name_to_user.rb" />
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190708041231_add_omni_auth_to_users.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190708041231_add_omni_auth_to_users.rb" />
     <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -717,13 +732,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190716045422_create_posts.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190716045422_create_posts.rb" />
     <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/carrierwave-1.3.1/lib/carrierwave/orm/activerecord.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -731,55 +740,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190716045508_create_photos.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190716045508_create_photos.rb" />
     <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="97" selection-start-line="97" selection-end-line="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/photo.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_navbar.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -793,10 +758,11 @@
     <entry file="file://$PROJECT_DIR$/db/migrate/20171223151516_devise_create_users.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/concerns/posts_controller.rb" />
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+        <state relative-caret-position="1037">
+          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -807,13 +773,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/concerns/posts_controller.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/omniauth_callbacks_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_navbar.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -824,10 +815,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/photo.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="429">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
         </state>
       </provider>
     </entry>
